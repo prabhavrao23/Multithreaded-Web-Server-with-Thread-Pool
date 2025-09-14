@@ -3,7 +3,7 @@
 
 **Author:** Prabhav Rao
 
-I built this project to demonstrate real multithreading in C++ by serving HTTP requests concurrently with a custom thread pool. I focused on correctness, simplicity, and measurable throughput gains over a single threaded baseline.
+I built this project because I wanted to understand how real web servers manage many clients at once. Most frameworks hide the concurrency and networking details, so I challenged myself to design a server from scratch in C++ with sockets and a custom thread pool.
 
 ## Features
 - Thread pool that runs request handlers concurrently
